@@ -1,0 +1,137 @@
+.left{
+    background-color: rgb(0,0,50);
+    width: 20%;
+    height: 100%;
+    padding-block: 10px;
+    position: fixed;
+}
+.left h3{
+    color: rgb(50,150,255);
+    font-size: 2vw;
+    font-family: monospace;
+    text-align: center;
+}
+.left div{
+    background-color: rgba(100,100,100,.5);
+    text-align: center;
+    color: rgb(200,200,200);
+    padding: 0.4vw;
+    margin: 0.8vw;
+    font-family: monospace;
+    font-size: calc(2px + 1.4vw);
+    border-radius: 10px;
+}
+#module div span{white-space: pre;}
+.ver{
+    position: absolute;
+    bottom: calc(1em + 10px);
+    left: 1em;
+    font-size: 20px;
+    color: rgb(120,120,120);
+    }
+.right{
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+}
+table{
+    width:100%;
+    height: 100%;
+    border-spacing: 10px;
+    table-layout: fixed;
+}
+.input,.output{
+    background-color: rgba(20,0,0,.2);
+    border: 5px solid rgb(100,0,0);
+    width: 50%;
+    height: 75%;
+    border-radius: 15px;
+}
+.copyBtn{
+    height: 5%;
+}
+#input,#output{
+    resize: none;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    overflow: auto;
+    color: rgb(255,255,255);
+    font-size: calc(4px + 1.4vw);
+    font-family: monospace;
+    white-space: pre;
+}
+#command{
+    resize: none;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-break: break-all;
+    color: rgb(255,255,255);
+    font-size: calc(4px + 1.4vw);
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+#copy{
+    background-color: rgb(10,30,50);
+    border: 4px solid rgb(100,0,0);
+    border-radius: 20px;
+    width: 25%;
+    min-width: 100px;
+    padding: 5px;
+    font-size: 130%;
+    color: rgb(200,200,200);
+    cursor: pointer;
+}
+.command{
+    background-color: rgba(20,0,0,.2);
+    border: 5px solid rgb(100,0,0);
+    width: 100%;
+    height: 20%;
+    border-radius: 15px;
+}
+#copy:hover{
+    background-color: rgb(50,150,255);
+    border: 1px solid rgb(100,0,0);
+    border-radius: 20px;
+    width: 30%;
+    min-width: 120px;
+    padding: 6.8px;
+    font-size: 150%;
+    color: rgb(0,0,0);
+    transition: 0.3s;
+}
+.c0{color: rgb(0,0,0);}
+.c1{color: rgb(0,0,170);}
+.c2{color: rgb(0,170,0);}
+.c3{color: rgb(0,170,170);}
+.c4{color: rgb(170,0,0);}
+.c5{color: rgb(170,0,170);}
+.c6{color: rgb(255,170,0);}
+.c7{color: rgb(170,170,170);}
+.c8{color: rgb(85,85,85);}
+.c9{color: rgb(85,85,255);}
+.ca{color: rgb(85,255,85);}
+.cb{color: rgb(85,255,255);}
+.cc{color: rgb(255,85,85);}
+.cd{color: rgb(255,85,255);}
+.ce{color: rgb(255,255,85);}
+.cf{color: rgb(255,255,255);}
+.cg{color: rgb(221,214,5);}
+.bold{font-weight: bold;}
+.italic{font-style: italic;}
+body{
+    margin: 0;
+    background: rgb(50,50,50);
+}

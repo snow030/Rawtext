@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="rawtext.css">
+        <title>Rawtext生成器</title>
+    </head>
+    <body>
+        <div class="right">
+            <table>
+                <tr>
+                    <td class="input">
+                        <textarea id="input" placeholder="Write Something..."></textarea>
+                    </td>
+                    <td class="output">
+                        <div id="output"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="copyBtn">
+                        <button id="copy">复制rawtext</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="command">
+                        <div id="command"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="left">
+            <h3>*Modules模块格式*</h3>
+            <span id="module">
+                <div>SELECTOR模块<br>&lt;:selector:&gt;</div>
+                <div>SCORE模块<br>[:name:objective:]</div>
+                <div>
+                    <span class="c0">§0 </span>
+                    <span class="c1">§1 </span>
+                    <span class="c2">§2 </span>
+                    <span class="c3">§3</span><br>
+                    <span class="c4">§4 </span>
+                    <span class="c5">§5 </span>
+                    <span class="c6">§6 </span>
+                    <span class="c7">§7</span><br>
+                    <span class="c8">§8 </span>
+                    <span class="c9">§9 </span>
+                    <span class="ca">§a </span>
+                    <span class="cb">§b</span><br>
+                    <span class="cc">§c </span>
+                    <span class="cd">§d </span>
+                    <span class="ce">§e </span>
+                    <span class="cf">§f</span><br>
+                    <span class="cg">§g</span><br>
+                    <span>§k ⵍⵍⵍⵍⵍ   </span>
+                    <span class="bold">§l 粗体</span><br>
+                    <span class="italic">§o 斜体   </span>
+                    <span>§r 重置</span>
+                </div>
+            </span>
+            <var class='ver'>1.0.0</var>
+        </div>
+        <script src="rawtext.js"></script>
+    </body>
+</html>
